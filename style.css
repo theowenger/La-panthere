@@ -18,6 +18,17 @@ a:hover {
     cursor: pointer;
 }
 
+.row-team {
+    background-color:#F5FFFFFF;
+    padding: 30px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 800;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -28,7 +39,6 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -679,10 +689,16 @@ a {
 p {
     font-size: 11px;
 }
+.text__center-title {
+    font-weight: 800;
+    font-size: 1.5em;
+    text-align: center;
+}
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .h1 {
@@ -823,6 +839,8 @@ h4 {
 }
 
 .bg-presentation {
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("img/image-de-presentation_1.webp");
 }
 
