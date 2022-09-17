@@ -726,8 +726,10 @@ p {
 .social {
     max-width: 800px;
     margin: auto auto auto auto;
-    margin-left: 100px;
-    margin-right: 100px;
+
+}
+.contact-font {
+    color: #000;
 }
 
 h2 {
