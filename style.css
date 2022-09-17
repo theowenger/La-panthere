@@ -48,6 +48,12 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+.citation {
+    font-style: italic;
+}
+.guibard {
+    font-size: 1.2em;
+}
 
 .bloc .container {
     padding-left: 0;
