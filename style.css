@@ -12,6 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline: none;
 }
+label {
+    font-size: 1.4em;
+}
 
 a:hover {
     text-decoration: none;
@@ -73,6 +76,10 @@ a:hover {
     padding-top: 8px;
     color: #000000;
 }
+.tight-width-whitespace {
+    font-size: 1.5em;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -1068,15 +1075,74 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 767px) {
     .bloc {
+        position: relative;
+        width: 100%;
         padding-left: 0;
         padding-right: 0;
     }
-}
-
-@media (max-width: 767px) {
+    .col-sm-12 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container.bloc-md {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-center {
+        width: 100%;
+    }
+    .tight-width-whitespace {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-team {
+        width: 100%;
+    }
+    .bloc-sm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        width: 100%;
+    }
+    .bloc-lg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .contact-panthere {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0%;
+        width: 300px;
+        text-align: center;
+    }
+    .col-sm-6 {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
